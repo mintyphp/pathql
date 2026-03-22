@@ -9,11 +9,14 @@
             "homepage": "https://www.tqdev.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "mintyphp/core": ">=4"
     },
     "autoload": {
         "psr-4": {
