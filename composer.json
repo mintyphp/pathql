@@ -1,0 +1,28 @@
+{
+    "name": "mintyphp/pathql",
+    "description": "PathQL query processor for MintyPHP ORM - automatic path inference for hierarchical query results",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maurits van der Schee",
+            "email": "maurits@vdschee.nl",
+            "homepage": "https://www.tqdev.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MintyPHP\\PathQL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MintyPHP\\PathQL\\Tests\\": "tests/"
+        }
+    }
+}
